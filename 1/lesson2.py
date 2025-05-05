@@ -10,6 +10,8 @@ if number % 2 ==0:
         print("Znizka dla 18 latka")
     elif (age <= 18):
         print("znizka")
+    elif age >= 45 and age <= 55:
+        print("Free ride")
     else:
         print("bez zniżki")
  

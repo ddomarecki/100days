@@ -1,10 +1,18 @@
 # lesson 3
 
 print("welcome")
-height = int(input("What is ur height in cm?"))
+number = int(input("What is ur height in cm?"))
 
-if height > 120:
-    print("u can ride")
+if number % 2 ==0:
+    print("even")
+    age = int(input("What is you age"))
+    if age == 18:
+        print("Znizka dla 18 latka")
+    elif (age <= 18):
+        print("znizka")
+    else:
+        print("bez zniżki")
+ 
 else:
-    print("u can not ride")
+    print("odd")
 

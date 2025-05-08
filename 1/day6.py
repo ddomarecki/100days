@@ -15,10 +15,6 @@ while not at_goal():
         turn_right()
         move()
         turn_left()
-        turn_left()
-        turn_left()
-        turn_left()
-        turn_left()
 
     else:
         move()

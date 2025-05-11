@@ -35,4 +35,3 @@
 #
 # # Przykładowe wywołanie:
 # calculate_love_score("Anna Graczyk", "Damian Domarecki")
-
